@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://app.salesdrip.com/users/myteam45785/Media180.ico"/>
     <title>Sims Global Solutions</title>
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
@@ -10,6 +11,8 @@
   <body>
     <!-- Header section ------------------------------------------------>
     <header>
+      <div class="headsection">
+
       <div class="header">
         <div class="upperhead">
           <div class="headlogo">
@@ -24,7 +27,15 @@
         <div class="lowerhead">
           <nav class="main-nav">
             <ul>
-              <li id="navitem"><a href="#">SERVICES</a></li>
+              <li id="navitem" class="servicenav"><a href="#">SERVICES</a>
+              <ul class="dropdown">
+                <li id="servitem"><a href="#">LTL</a></li>
+                <li id="servitem"><a href="#">Truckload</a></li>
+                <li id="servitem"><a href="#">Expedited</a></li>
+                <li id="servitem"><a href="#">Intermodal</a></li>
+                <li id="servitem"><a href="#">Specialized</a></li>
+                <li id="servitem"><a href="#">International</a></li>
+              </ul></li>
               <li id="navitem"><a href="#">DOCUMENTS</a></li>
               <li id="navitem"><a href="#">ABOUT</a></li>
               <li id="navitem"><a href="#">FAQS</a></li>
@@ -34,6 +45,158 @@
             </ul>
           </nav>
         </div>
-    </header>
+
+        </div>
+        </header>
+    <!-- Body Section -------------------------------------------------------->
+    <div class="main">
+      <div class="top">
+
+      </div>
+      <div class="marker">
+
+      </div>
+      <div class="marker">
+
+      </div>
+      <div class="marker">
+
+      </div>
+
+    </div>
+    <!-- Footer Section ------------------------------------------------------>
+     <div class="footsection">
+      <div class="topfoot">
+        <div class="foottext">
+
+
+       <div class="leftfoot">
+         <div class="leftfootcontent">
+           <div class="footlink">
+             <a href="#">SERVICES</a>
+           </div>
+           <div class="footservice">
+             <a href="#">LTL</a>
+             <a href="#">TRUCKLOAD</a>
+             <a href="#">EXPEDITED</a>
+             <a href="#">INTERMODAL</a>
+             <a href="#">SPECIALIZED</a>
+             <a href="#">INTERNATIONAL</a>
+           </div>
+           <div class="footlink space">
+             <a href="#">DOCUMENTS</a>
+           </div>
+           <div class="footlink">
+             <a href="#">ABOUT</a>
+           </div>
+           <div class="footlink">
+             <a href="#">FAQ</a>
+           </div>
+           <div class="footlink">
+             <a href="#">BLOG</a>
+           </div>
+           <div class="footlink">
+             <a href="#">CONTACT</a>
+           </div>
+         </div>
+         <div class="leftfootimage">
+           <img src="https://app.salesdrip.com/users/myteam45785/Media2.png" alt="">
+         </div>
+
+       </div>
+       <div class="centerfoot">
+
+       </div>
+       <div class="rightfoot">
+
+         <div class="formhead">
+           <div class="formicon">
+             <img src="https://app.salesdrip.com/users/myteam45785/Media175.png" alt="">
+           </div>
+           <div class="formtitle">
+             DROP US A LINE...
+           </div>
+         </div>
+         <div class="inputone">
+           <!-- First Input ------------------------------------------------------------------->
+           <label class="formlabel" for="email">
+             "Email"
+           </label>
+           <input name="input_1" id="email" type="email" value=""
+           class="inputsection" tabindex="1000" placeholder="   Email Address" aria-required="true"
+           aria-invalid="false">
+           <!-- Second Input ------------------------------------------------------------------->
+           <label class="formlabel" for="phone">
+             "Phone"
+           </label>
+           <input name="input_2" id="phone" type="tel" value="" class="inputsection"
+           tabindex="1001" placeholder="  Phone" aria-required="true" aria-invalid="false">
+
+           <!-- Third Input ------------------------------------------------------------------->
+
+           <label class="formlabel" for="heardabout">
+             "How did you hear about us?"
+           </label>
+
+           <select name="input_4" id="heardabout" onchange="gf_apply_rules(1,[5]);" class="inputdrop"  aria-required="true" aria-invalid="false">
+             <option value="" selected="selected" class="gf_placeholder">How did you hear about us?</option>
+             <option value="Billboard">Billboard</option>
+             <option value="Referral">Referral</option>
+             <option value="Facebook">Facebook</option>
+             <option value="Google">Google</option>
+             <option value="Instagram">Instagram</option>
+             <option value="K-State Sports">K-State Sports</option>
+             <option value="LinkedIn">LinkedIn</option>
+             <option value="Radio">Radio</option>
+             <option value="Twitter">Twitter</option>
+             <option value="Word of mouth">Word of mouth</option>
+             </select>
+
+             <!-- Third Input ------------------------------------------------------------------->
+
+             <label class="formlabel" for="loaddetail">
+               "Load Details"
+             </label>
+               <textarea name="input_2" id="loaddetail" class="textareainput" tabindex="1004"
+               placeholder="
+  Load details..." aria-invalid="false" rows="10" cols="50"></textarea>
+
+            <div class="formfooter">
+              <input type="submit" id="gform_submit_button_1" class="formbutton" value="SEND" tabindex="1005" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  "
+              onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if(           !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }">
+              <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=1&amp;description=&amp;tabindex=1">
+              <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
+              <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
+
+              <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
+              <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjY2YTQwZDg0YmUwOTYwZjc5MTlkMTJlMDk3MWRhZWRjIl0=">
+              <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
+              <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
+              <input type="hidden" name="gform_field_values" value="">
+          </div>
+
+
+          </div>
+       </div>
+       </div>
+       <div class="footlower">
+         <div class="footlogo">
+           <img src="https://app.salesdrip.com/users/myteam45785/Media3.png" alt="">
+         </div>
+         <div class="footmediaicons">
+           <a href="https://www.linkedin.com/company/sims-global-solutions/about/" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media177.jpg" alt=""></a>
+           <a href="https://www.facebook.com/shipsims/" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media178.jpg" alt=""></a>
+           <a href="https://twitter.com/Sims_Global" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media179.jpg" alt=""></a>
+           <a href="https://www.instagram.com/simsglobalsolutions/" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media176.jpg" alt=""></a>
+
+         </div>
+       </div>
+      </div>
+      <div class="bottomfoot">
+
+      </div>
+
+    </div>
+
   </body>
 </html>
