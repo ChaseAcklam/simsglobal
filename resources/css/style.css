@@ -398,6 +398,39 @@ ul .dropdown {
   border-bottom: 2px solid rgb(243, 132, 31);
 }
 
+.pdflist {
+  margin-top: 2.5rem;
+}
+
+.pdfitem a{
+  margin-top: .5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.pdftitle {
+  margin-left: .25rem;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.successlistarea {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.successlist {
+  margin-right: 9rem;
+}
+
 
 /*---------------------------------- Footer Section ----------------------*/
 
