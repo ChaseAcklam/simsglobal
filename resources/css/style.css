@@ -210,20 +210,200 @@ ul .dropdown {
   margin-top: 8rem;
 }
 
-.marker {
-  margin-top: 15rem;
-  border-bottom: 5px solid blue;
+.mainbanner {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media16.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.top {
-
+.bannertitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 1200px;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+  letter-spacing: .1rem;
+  margin-bottom: .8rem;
 }
+
+.stripyellow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 250, 215);
+  height: 2.5rem;
+}
+
+.yellowtitle {
+  width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 1.5;
+}
+
+.mainbody {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maintitle {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+}
+
+.mainmedia {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.maintext {
+  width: 80%;
+}
+
+.maintext p{
+  margin-top: .5rem;
+}
+
+.maintext h3{
+  font-size: 1.5rem;
+}
+
+.mainimg img{
+  margin-top: .5rem;
+  width: 300px;
+}
+
+.servicetypes {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.servicon {
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 2rem;
+  margin-left:2rem;
+  margin-right: 2rem;
+}
+
+.servicon:hover {
+  box-shadow: 0px 1.5px 9px gray;
+
+  border: 1px solid gray;
+}
+
+.servicon img{
+  width: 96.25px;
+}
+
+.servicon p {
+  margin-top: 1rem;
+}
+
+.listicon img{
+  width: 31.58px;
+  margin-right: .5rem;
+}
+
+.typelist {
+  padding-right: 5rem;
+  margin-left: 1.5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.typelistEXP {
+  padding-right: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.listcontent {
+  width: 246.42px;
+}
+
+.typeitem {
+  margin-top: .5rem;
+}
+
+.servlists {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.servlistsEXP {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.titlelist {
+  width: 15rem;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  border-bottom: 2px solid rgb(243, 132, 31);
+}
+
 
 /*---------------------------------- Footer Section ----------------------*/
 
 .footsection {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   z-index: 1;
@@ -449,14 +629,14 @@ ul .dropdown {
     width: 50%;
   }
 
+
+
+/*---------------------------------- Bottom Foot --------------------------*/
 .contactbar {
   text-align: center;
   margin-bottom: .5rem;
   width: 1200px;
 }
-
-/*---------------------------------- Bottom Foot --------------------------*/
-
 
 
 /*---------------------------------- Span CSS -----------------------------*/
@@ -489,4 +669,8 @@ ul .dropdown {
 
 .space {
   padding-top: .5rem;
+}
+
+.hidden {
+  opacity: 0;
 }
