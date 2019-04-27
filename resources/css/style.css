@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-
+  overflow-x: hidden;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+
 }
 
 /*---------------------------------- Head CSS ---------------------------*/
@@ -56,6 +57,90 @@ header {
   text-transform: uppercase;
   font-size: 90%;
 }
+
+.mainvid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top:0;
+  z-index: -2;
+  left:0;
+  width:100%;
+  height:600px;
+}
+
+.mainvid video {
+width: 100%;
+z-index: -1;
+position: absolute;
+}
+
+.vidtitle {
+  text-align: center;
+  text-transform: uppercase;
+letter-spacing: .1em;
+font-weight: 700;
+font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 44.6681px;
+}
+
+.vidcontent {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vidpara {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: .03em;
+}
+
+.vidbttn {
+  width: 6rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  padding: .2rem 1.5rem;
+  color: #fff;
+  background: #f3841f;
+  border: 1px solid #f3841f;
+    transition: All 350ms ease;
+}
+
+.vidbttno {
+  margin-top: 1.5rem;
+  width: 9rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  padding: .4rem 1.5rem;
+  color: #fff;
+  background: rgba(243,132,31,0.4);
+  border: 1px solid #f3841f;
+  transition: All 350ms ease;
+}
+
+.vidbttn a{
+  color: #fff;
+}
+.vidbttno a{
+  color: #fff;
+}
+
+.vidbttn:hover {
+  background: rgba(243,132,31,0.8);
+}
+.vidbttno:hover {
+background: rgba(243,132,31,0.8);
+}
+
 
 .headship a {
   font-weight: 300;
@@ -106,6 +191,7 @@ nav {
   transition: all 300ms ease;
 }
 
+
 .main-nav a {
   display: flex;
   width: 100%;
@@ -135,6 +221,7 @@ nav {
 
 
 #loginnav{
+  list-style-type: none;
   background-color: rgb(243, 132, 31);
   color: white;
   transition: all 700ms ease;
@@ -225,6 +312,73 @@ ul .dropdown {
   background-position: center;
 }
 
+.mainbannerdocument {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media28.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannerabout {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.maincontenthome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainbannercontact {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannerfaq {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media35.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .bannertitle {
   display: flex;
   justify-content: flex-start;
@@ -243,6 +397,17 @@ ul .dropdown {
   align-items: center;
   background-color: rgb(255, 250, 215);
   height: 2.5rem;
+}
+
+.woodtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  letter-spacing: .1em;
+  font-weight: 700;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 .yellowtitle {
@@ -268,10 +433,73 @@ ul .dropdown {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: white;
+}
+
+.section1home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fffdf0;
+}
+
+.sectiontwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.TIA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 15rem;
+}
+
+.tiatitle {
+  margin-left: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 700;
+  border-bottom: 2px solid orange;
+  line-height: 1.4;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.8rem;
+  width: 33rem;
+}
+
+.tiaimg img {
+  margin-right: 3rem;
+  width: 300px;
+}
+
+.tiasente {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  margin-left: 3rem;
+  width: 33rem;
+
 }
 
 .maintitle {
   margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+}
+
+.maintitlehome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4rem;
   margin-bottom: 1rem;
   font-size: 2em;
   font-weight: 700;
@@ -288,6 +516,54 @@ ul .dropdown {
 
 .maintext {
   width: 80%;
+
+}
+
+.slider {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+}
+
+.slide {
+  margin: 1rem 5rem;
+  width: 15rem;
+  border: 2px solid red;
+  height: 7rem;
+}
+
+.woodcontent {
+  text-align: center;
+}
+
+.woodgrain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20rem;
+  background-image: url(https://app.salesdrip.com/users/myteam45785/Media70.jpg);
+  background-size: cover;
+}
+
+.mainimghome {
+    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mainimghome img {
+  height: 100%;
+  width: 50%;
+}
+
+.maintexthome {
+  margin-top: 1rem;
+  width: 60%;
+    text-align: center;
 }
 
 .maintext p{
@@ -324,14 +600,40 @@ ul .dropdown {
   padding-left: 6rem;
   padding-right: 6rem;
   margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.serviconh {
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 2rem;
   margin-left:2rem;
   margin-right: 2rem;
+}
+
+.servicon p {
+  font-weight: 300;
+width: 18rem;
 }
 
 .servicon:hover {
   box-shadow: 0px 1.5px 9px gray;
 
   border: 1px solid gray;
+}
+
+ul{
+  list-style: none;
 }
 
 .servicon img{
@@ -462,7 +764,7 @@ ul .dropdown {
   flex-direction: row;
   font-size: .8rem;
   background-color: rgb(231, 231, 229);
-  height: 700px;
+  height: 550px;
   width: 1200px;
 }
 
@@ -707,3 +1009,172 @@ ul .dropdown {
 .hidden {
   opacity: 0;
 }
+
+sup {
+  margin-top: 5rem;
+  vertical-align: top;
+  font-size: 1.5rem;
+}
+
+.line {
+  width: 4rem;
+  border-top: 3px solid orange;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.linelong {
+  width: 8rem;
+  border-top: 3px solid orange;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/*--------------------------------------------- End Span -------------------*/
+
+@media only screen and (max-width: 1300px){
+html {
+  font-size: 12px;
+}
+
+.mainimg img{
+  margin-top: .5rem;
+  width: 200px;
+}
+
+}
+
+@media only screen and (max-width: 1200px){
+html {
+  font-size: 12px;
+}
+
+.mainimg img{
+display: none;
+}
+
+.headship {
+  display: none;
+}
+
+.upperhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontent {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.bannertitle {
+  margin-left: 5rem;
+}
+
+.centerfoot {
+  margin: 2rem 0;
+}
+
+.foottext {
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+}
+
+.footlower {
+  width: 1100px;
+}
+
+.contactbar {
+  width: 1100px;
+}
+
+.lowerfoot {
+  width: 1100px;
+}
+
+}
+
+@media only screen and (max-width: 1100px){
+.footmediaicons {
+  display: none;
+}
+
+.footlower {
+  display: flex;
+  justify-content: center;
+}
+
+
+.footlogo {
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+
+
+/*-------------------------------------------------- New CSS ------------------------------*/
+
+.trucklistsection {
+  display: flex;
+  justify-content: flex-start;
+  width: 1200px;
+}
+
+.trucklist {
+  flex-wrap: wrap;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trucklist a {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+.truckbox {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 13rem;
+  border-bottom: 2px solid rgb(243, 132, 31);
+  transition: all 300ms ease;
+}
+
+.truckbox img {
+  margin-right: 1rem;
+  width: 31.5px;
+}
+
+.truckbox:hover {
+  color: rgb(7, 139, 255);
+}
+
+
+
+
+
+
+\
