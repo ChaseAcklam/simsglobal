@@ -1,0 +1,2407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="<!-- Teamname -->" />
+<meta name="description" content="Official website for <!-- Teamname -->" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><!-- Teamname --></title>
+<style type="text/css">
+  <style>
+/* Fansite 180 - Bold Pro Responsive */
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+
+}
+
+body {
+  margin: 0;
+      font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-style: normal;
+      line-height: 1.5;
+      font-weight: 300;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+}
+
+/*---------------------------------- Head CSS ---------------------------*/
+
+header {
+  z-index: 3;
+  position: fixed;
+  overflow: hidden;
+  height: 128.7px;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.headsection {
+  z-index: 3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+}
+
+.upperhead {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 96.7px;
+}
+
+.headlogo img{
+  display: flex;
+  width: 50%;
+}
+
+.headship {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+.headship a {
+  font-weight: 300;
+}
+.headship p {
+ opacity: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lowerhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(231, 231, 229);
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(63, 71, 77);
+  box-shadow: 0px 1.5px 9px gray;
+}
+
+nav {
+  width: 100%;
+}
+
+
+.main-nav ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-bottom-color: rgb(63, 71, 77);
+}
+
+#navitem {
+  z-index: 3;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 3px solid rgb(231, 231, 229);
+  color: rgb(30, 29, 27);
+  transition: all 300ms ease;
+}
+
+
+.main-nav a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 90%;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: .08rem;
+  transition: all 300ms ease;
+}
+
+
+
+#navitem:hover {
+  background-color: white;
+  color: rgb(7, 139, 255);
+  border-bottom: 3px solid rgb(7, 139, 255);
+
+}
+
+.main-nav a:hover {
+  color: rgb(7, 139, 255);
+}
+
+
+#loginnav{
+    letter-spacing: .08rem;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  list-style-type: none;
+  background-color: rgb(243, 132, 31);
+  color: white;
+  transition: all 700ms ease;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: .3rem;
+  padding-bottom: .45rem;
+  height: 100%;
+  font-size: 90%;
+  margin:0;
+}
+
+#loginnav:hover {
+    z-index: 3;
+  background-color: rgb(203, 92, 1);
+
+}
+
+
+#log:hover .formlogin{
+  display: block;
+  opacity: 1;
+}
+
+
+
+#loginnav a{
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: white;
+}
+
+.servicenav {
+  z-index: 3;
+  position: relative;
+  transition: all 800ms ease;
+}
+
+#Page1Link:hover .dropdown {
+  z-index: 99;
+  display: block;
+  transition: all 600ms ease;
+  opacity: 1;
+
+}
+
+#servitem:hover {
+  z-index: 3;
+  color: white;
+  background-color: rgb(7, 139, 255);
+}
+
+#servitem:hover a{
+  color: white;
+}
+
+ul .dropdown {
+  z-index: 99;
+  display: none;
+  opacity: 1;
+  position: absolute;
+  width: 140px;
+  height: 15rem;
+  letter-spacing: .08rem;
+  transition: all 400ms ease;
+}
+
+
+
+#servitem {
+  color: black;
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+  z-index: 5;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  cursor: pointer;
+  font-size: .80rem;
+  transition: all 500ms ease;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*---------------------------------- Body Section CSS -------------------*/
+
+.main {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.mainbanner {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media16.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannerdocument {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media28.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannerabout {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannercontact {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannerfaq {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media35.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bannertitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 1200px;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+  letter-spacing: .1rem;
+  margin-bottom: .8rem;
+}
+
+.stripyellow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 250, 215);
+  height: 2.5rem;
+}
+
+.yellowtitle {
+  width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 1.5;
+}
+
+.mainbody {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maintitle {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+}
+
+.mainmedia {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.maintext {
+  width: 80%;
+}
+
+.maintext p{
+  margin-top: .5rem;
+}
+
+.maintext h3{
+  font-size: 1.5rem;
+}
+
+.mainimg img{
+  margin-top: .5rem;
+  width: 300px;
+}
+
+.servicetypes {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.servicon {
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 2rem;
+  margin-left:2rem;
+  margin-right: 2rem;
+}
+
+.servicon:hover {
+  box-shadow: 0px 1.5px 9px gray;
+
+  border: 1px solid gray;
+}
+
+.servicon img{
+  width: 96.25px;
+}
+
+.servicon p {
+  margin-top: 1rem;
+}
+
+.listicon img{
+  width: 31.58px;
+  margin-right: .5rem;
+}
+
+.typelist {
+  padding-right: 5rem;
+  margin-left: 1.5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.typelistEXP {
+  padding-right: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+ul{
+  list-style: none;
+}
+
+.serviconh {
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 2rem;
+  margin-left:2rem;
+  margin-right: 2rem;
+}
+
+.servicon p {
+  font-weight: 300;
+width: 18rem;
+}
+
+.maintext {
+  width: 80%;
+
+}
+
+.slider {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+}
+
+.slide {
+  margin: 1rem 5rem;
+  width: 15rem;
+  border: 2px solid red;
+  height: 7rem;
+}
+
+.woodcontent {
+  text-align: center;
+}
+
+.woodgrain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20rem;
+  background-image: url(https://app.salesdrip.com/users/myteam45785/Media70.jpg);
+  background-size: cover;
+}
+
+
+.section1home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fffdf0;
+}
+
+.sectiontwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.TIA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 15rem;
+}
+
+.woodtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  letter-spacing: .1em;
+  font-weight: 700;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+.mainbannerdocument {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media28.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainbannerabout {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.maincontenthome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainbannercontact {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainvid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top:0;
+  z-index: -2;
+  left:0;
+  width:100%;
+  height:600px;
+}
+
+.mainvid video {
+width: 100%;
+z-index: -1;
+position: absolute;
+}
+
+.vidtitle {
+  text-align: center;
+  text-transform: uppercase;
+letter-spacing: .1em;
+font-weight: 700;
+font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 44.6681px;
+}
+
+.vidcontent {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vidpara {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: .03em;
+}
+
+.vidbttn {
+  width: 6rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  padding: .2rem 1.5rem;
+  color: #fff;
+  background: #f3841f;
+  border: 1px solid #f3841f;
+    transition: All 350ms ease;
+}
+
+.vidbttno {
+  margin-top: 1.5rem;
+  width: 9rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  padding: .4rem 1.5rem;
+  color: #fff;
+  background: rgba(243,132,31,0.4);
+  border: 1px solid #f3841f;
+  transition: All 350ms ease;
+}
+
+.vidbttn a{
+  color: #fff;
+}
+.vidbttno a{
+  color: #fff;
+}
+
+.vidbttn:hover {
+  background: rgba(243,132,31,0.8);
+}
+.vidbttno:hover {
+background: rgba(243,132,31,0.8);
+}
+
+
+.mainbannerfaq {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media35.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.tiatitle {
+  margin-left: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 700;
+  border-bottom: 2px solid orange;
+  line-height: 1.4;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.8rem;
+  width: 33rem;
+}
+
+.tiaimg img {
+  margin-right: 3rem;
+  width: 300px;
+}
+
+.tiasente {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  margin-left: 3rem;
+  width: 33rem;
+
+}
+
+.maintitlehome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+}
+
+
+.mainimghome {
+    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mainimghome img {
+  height: 100%;
+  width: 50%;
+}
+
+.maintexthome {
+  margin-top: 1rem;
+  width: 60%;
+    text-align: center;
+}
+
+
+.listcontent {
+  width: 246.42px;
+}
+
+.typeitem {
+  margin-top: .5rem;
+}
+
+.alink {
+  width: 100;
+  padding-right: 6rem;
+}
+
+.servlists {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.servlistsEXP {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.titlelist {
+  width: 15rem;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  border-bottom: 2px solid rgb(243, 132, 31);
+}
+
+.pdflist {
+  margin-top: 2.5rem;
+}
+
+.pdfitem a{
+  margin-top: .5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.pdftitle {
+  margin-left: .25rem;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.successlistarea {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.successlist {
+  margin-right: 9rem;
+}
+
+
+/*---------------------------------- Footer Section ----------------------*/
+
+.footsection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.topfoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: .8rem;
+  background-color: rgb(231, 231, 229);
+  height: 700px;
+  width: 100%;
+}
+
+.foottext {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  font-size: .8rem;
+  background-color: rgb(231, 231, 229);
+  width: 1200px;
+}
+
+.leftfoot {
+  width: 11.25rem;
+}
+
+.footlink {
+  margin-top: .5rem;
+}
+
+.footlink a {
+  font-size: .8rem;
+  font-weight: 400;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: .07rem;
+}
+
+.footservice {
+  display: flex;
+  flex-direction: column;
+}
+
+.footservice a {
+  padding-top: .5rem;
+  font-size: .8rem;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: .07rem;
+}
+
+.footlink {
+  border-bottom: 2px solid rgb(7, 139, 255);
+}
+
+.leftfootimage img{
+  margin-top: 1rem;
+  width: 173px;
+}
+
+.centerfoot {
+  background-color: white;
+  height: 30rem;
+  width: 19rem;
+  margin-right: .5rem;
+  margin-left: 25rem;
+  opacity: 0;
+}
+
+.rightfoot {
+  margin-left: .5rem;
+  background-color: white;
+  height: 30rem;
+  width: 19rem;
+}
+
+.bottomfoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .7rem;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background-color: rgb(79, 79, 79);
+  width: 100%;
+  height: 2rem;
+  color: white;
+}
+
+.formhead {
+  margin-top: 1rem;
+  margin-left: .6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.formicon {
+
+}
+
+.formtitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.3;
+  width: 100%;
+  color: black;
+  font-size:1.8rem;
+  margin-bottom: .4rem;
+  margin-left: .7rem;
+}
+
+.inputone {
+  margin-left: .6rem;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.formlabel{
+  visibility: hidden;
+  position: absolute;
+}
+
+.inputsection {
+  color: gray;
+  margin-top: 1rem;
+  width: 94%;
+  height: 2.5rem;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 3px solid rgb(7, 139, 255);
+  border-radius: 5px;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.inputdrop {
+  color: gray;
+  background-color: white;
+  margin-top: 1.5rem;
+  width: 96%;
+  height: 2.5rem;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 3px solid rgb(7, 139, 255);
+  border-radius: 5px;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.textareainput {
+  color: gray;
+  background-color: white;
+  margin-top: 1.5rem;
+  width: 94%;
+  height: 8rem;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 3px solid rgb(7, 139, 255);
+  border-radius: 5px;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.formfooter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+#gform_submit_button_1 {
+    text-align: center;
+    font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(243, 132, 31);
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    letter-spacing: .07rem;
+    cursor: pointer;
+}
+
+.footlower {
+  width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.footmediaicons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footmediaicons a{
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+
+.footlogo img{
+  margin-right: 2rem;
+    display: flex;
+    width: 50%;
+  }
+
+
+
+/*---------------------------------- Bottom Foot --------------------------*/
+.contactbar {
+  text-align: center;
+  margin-bottom: .5rem;
+  width: 1200px;
+}
+
+/*---------------------------------- Carrier SLider --------------------------*/
+
+.scrolling-wrapper-flexbox {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  height: 9rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+  .card img {
+    margin: 0px 5rem;
+    width: 15rem;
+    height: 6rem;
+    flex: 0 0 auto;
+  }
+
+
+
+/*-- LOGIN FORM--------------------------------------------------------------*/
+
+.formlogin {
+  z-index: 3;
+  display: none;
+  position: absolute;
+  justify-content: center;
+  width: 15rem;
+  background-color: rgba(231, 231, 229, 0.9);
+}
+
+.sr-only {
+  display: none;
+}
+
+
+.form-control {
+  width: 90%;
+  height: 3rem;
+  color: grey;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3.5%;
+  margin-right: 2%;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 3px solid rgb(7, 139, 255);
+  border-radius: 5px;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.text-underline {
+  margin-left: .5rem;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
+
+
+.text-center{
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: .8rem;
+}
+
+.btn-orange {
+  width: 50%;
+  text-align: center;
+  padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-top: .35rem;
+    padding-bottom: .45rem;
+    background-color: rgb(243, 132, 31);
+color: white;
+font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+letter-spacing: .08rem;
+font-size: .8rem;
+text-transform: uppercase;
+}
+
+#Rememberme {
+    margin-top: .5rem;
+    display: block;
+}
+
+.all-caps {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(0, 115, 216);
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 90%;
+    padding: 0 !important;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    letter-spacing: .08rem;
+    transition: all 300ms ease;
+}
+
+.black-link {
+  text-decoration: underline;
+  justify-content: center !important;
+  text-align: center !important;
+  font-size: 90%;
+  padding: 0 !important;
+font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+margin: 0px 3rem;
+}
+
+.pad {
+  height: 1rem;
+  width: 100%;
+}
+
+
+/*---------------------------------- Span CSS -----------------------------*/
+
+.bold {
+  font-weight: bold;
+}
+
+.doublepad {
+  margin-left: 1rem;
+  margin-right: .5rem;
+}
+
+.pad {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.blue {
+  color: rgb(7, 139, 255);
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w300 {
+  font-weight: 300;
+}
+
+.space {
+  padding-top: .5rem;
+}
+
+
+.hidden {
+  opacity: 0;
+}
+
+/* Main Template Styles */
+
+#main {
+  background: 		<!-- Color :: Bold-Pro Interior Background Color :: #ffffff -->;
+	z-index: 			991;
+	position:			relative;
+	overflow:			hidden;
+	}
+#main a {
+	cursor: 			pointer;
+	}
+#main table {
+	max-width: 			100%!important;
+	}
+#homepage table {
+	max-width: 			100%!important;
+	}
+#homepageMain {
+	clear: 				both;
+	display: 			<!-- InitialHomepageDisplay -->;
+	width: 				100%;
+	}
+#homepage {
+	overflow:			hidden;
+	}
+.customPage {
+	clear: 				both;
+	display: 			none;
+	width: 				100%;
+	}
+.customPageContent {
+	overflow:			hidden;
+	}
+.interior {
+    position: relative;
+    /* margin-bottom: 10px; */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    margin-bottom:	30px;
+    width: 100%;
+}
+.interior input[type=checkbox] {
+  display: inline ;
+}
+.center_box {
+	padding:			0px;
+	}
+.side {
+	position:			relative;
+	float:				right;
+	width:				324px;
+	}
+.sub-content {
+	padding: 			10px;
+	margin:				0;
+	color:				#59595d;
+	background-color: 	#d3e1e3;
+	width: 				100%;
+	height:				213px;
+	bottom:				0;
+	font-size:			13px;
+	}
+.sub-content td {
+	font-size:			13px;
+	color:				#4a4a4a;
+	}
+
+
+/* Header Area Styles */
+
+#teamName {
+	font-size: 			16px;
+	font-weight:		bold;
+	color: 				<!-- Color :: Bold-Pro Group Name Font Color :: #ffffff -->;
+	text-align:			left;
+	position: 			absolute;
+	margin-left:		20px;
+	margin-top: 		5px;
+	text-shadow: 		2px 2px 3px #000000;
+	}
+
+
+
+
+
+
+/* Navigation Styles */
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	text-decoration: 	none;
+	color: 				<!-- Color :: Mobile Navigation Icon Color :: #000000 -->;
+	text-align:	 		center;
+	display: 			none;
+	}
+/*Hide checkbox*/
+input[type=checkbox]{
+	display: 			none;
+	}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #nav{
+	display: 			inline;
+	}
+.control_panel {
+  width: 100%;
+  list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+height: 2.1rem;
+background-color: rgb(231, 231, 229);
+box-shadow: 0px 1.5px 9px grey;
+margin: 0;
+	}
+#controlPanel {
+  list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+width: 100%;
+height: 2.1rem;
+margin-right: 8rem;
+	}
+
+  #controlPanel ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: flex-start;
+  }
+
+  #controlPanel li{
+    color: white;
+  }
+
+ul #nav {
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+#navitem a {
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(10, 10, 10);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left:1.5rem;
+  padding-right: 1.5rem;
+  list-style: none;
+  color: #44d400;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  transition: all 400ms ease;
+  margin: 1.5;
+}
+
+#navitem a:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+#navitem {
+  transition: all 400ms ease;
+}
+
+
+#controlPanel p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+	}
+#nav{
+  height: 2rem;
+  transition: all 400ms ease;
+	}
+
+#nav li{
+  min-width: 6rem;
+  z-index: 3;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(30, 29, 27);
+  transition: all 300ms ease;
+	}
+#nav a {
+  font-size: 90%;
+      letter-spacing: .08rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(10, 10, 10);
+  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-top: .30rem;
+  padding-bottom: .2rem;
+  font-family: 'Oswald',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-bottom: 4px solid rgb(231, 231, 229);
+  list-style: none;
+  color: black;
+  text-decoration: none;
+
+}
+
+
+#nav a:hover{
+  border-bottom: 4px solid rgb(7, 139, 255);
+  background-color: white;
+	}
+
+.activeNav {
+	text-decoration: none !important;
+}
+
+
+/*--- DROPDOWN ---*/
+#nav ul{
+
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+	background-color: rgb(10, 10, 10); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background-color: rgb(10, 10, 10); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:			none;
+	position:			relative;
+  bottom: 0;
+	display: none; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	padding:			0; /* This gets rid of any alignment issues */
+	}
+#nav ul li{
+  background-color: white;
+  z-index: 3;
+	padding-top:		0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+  border: none;
+  width: 80%;
+	}
+#nav ul li a{
+  color: black;
+  background-color: white;
+  font-size: 14.4px;
+  width: 70%;
+  position: relative;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  padding-top: .60rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid white;
+  /* Stop text wrapping and creating multi-line dropdown items */
+	}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	display: flex; /* Bring back on-screen when needed */
+	}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:	none;
+	}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	  background-color: white;
+        letter-spacing: .08rem;
+	text-decoration:	none;
+  text-transform: capitalize;
+  border-bottom:1px solid lightgray;
+	color: black;
+	font-size:			80%;
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	  background-color: rgb(7, 139, 255);
+	color: white;
+	text-decoration:	underline;
+  transition: all 300ms ease;
+  border-bottom:rgb(7, 139, 255);
+  font-family: 'Rubik',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+
+#nav ul li a:hover {
+  border-bottom:rgb(7, 139, 255);
+  background-color: rgb(7, 139, 255)
+  color: white;
+  transition: all 300ms ease;
+}
+
+/* -- bottom styles -- */
+
+
+
+
+/*FT NEW CSS FOR CART*/
+#leftNav {
+  margin-right: 25px;
+}
+.store_item_right_column select {
+  max-width: 200px;
+}
+#storeItems tr {
+  display: block;
+}
+#cart {
+  background: none repeat scroll 0 0 #f2f2f2 !important;
+  border: 1px solid #e1e1e1 !important;
+  border-radius: 10px;
+  padding: 20px !important;
+  width: 93% !important;
+}
+#cart tr td {
+  padding: 0 0 10px;
+}
+#viewCartButton a {
+  background: #BC8124 !important;
+  border: 1px solid #BE7F1B;
+  padding: 5px 15px !important;
+}
+.addToCartButton {
+  background: #bc8124 !important;
+  color: #fff !important;
+  font-size: 15px;
+  padding: 7px 15px !important;
+}
+.store_item_left_column img {
+  clear: both;
+}
+.billingInformationLine span, .billingInformationLine div {
+  display: block;
+  float: none !important;
+  padding: 7px 0 !important;
+  width: 100% !important;
+}
+.shippingInformationLine {
+  display: block;
+  float: none !important;
+  padding: 7px 0 !important;
+  width: 100% !important;
+}
+@media screen and (max-width : 480px){
+	#storeItems td {
+  		display: block;
+  		float: left;
+	}
+}
+
+.storeItemCustomField {
+  color: #666 !important;
+  margin: 0 !important;
+}
+.storeItemShoppingOptions {
+  color: #666 !important;
+}
+.storeItemDescription {
+  color: #777;
+  font-size: 14px;
+  line-height: 20px;
+}
+.cart_item_right_column {
+  vertical-align: inherit !important;
+}
+.store_item_right_column select {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #555;
+  font-size: 14px;
+  margin: 3px 0 0;
+  max-width: 200px;
+  padding: 3px 2px 4px 5px;
+}
+.storeItemName {
+  font-family: helvetica neue,helvetica,arial,verdana;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: normal;
+}
+.storeItemPrice {
+  color: #bc8124;
+  font-family: georgia;
+  font-size: 19px;
+  font-weight: normal !important;
+  margin-bottom: 20px;
+}
+.cart_item_table {
+  color: #666;
+  margin-left: -5px;
+}
+.addToCartButton:hover {
+  color: #e1e1e1 !important;
+  text-decoration: none !important;
+}
+.checkoutButton, #checkoutButton {
+  background: #bc8124 !important;
+  color: #fff !important;
+  font-size: 14px;
+  padding: 6px 15px !important;
+}
+#updateCartButton {
+  background: #e1e1e1 !important;
+  border: 1px solid #ccc;
+  font-size: 12px !important;
+  padding: 5px 10px !important;
+}
+#returnToStoreButton {
+  background: #e1e1e1 !important;
+  border: 1px solid #ccc;
+  font-size: 12px !important;
+  padding: 5px 10px !important;
+}
+.container {
+	margin-left:	auto;
+	margin-right:	auto;
+	width:	1200px;
+	display: inline-block;
+}
+a.button {
+    padding: 20px 30px;
+    background-color: #F60;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+}
+a.button:hover {
+	background-color: #fff;
+	color:	#f60;
+}
+.orange-bg {
+	width: 100%;
+	background-color:	#f60;
+	padding:	20px 0px;
+	color:	#fff;
+	text-align: left;
+}
+.white-bg {
+	width: 100%;
+	background-color:	#fff;
+	padding:	20px 0px;
+	color:	#333;
+	text-align: left;
+}
+.about-bg {
+	width: 100%;
+	background-size:	100%;
+	background-image: url('https://app.salesdrip.com/users/myteam42369/Media686.jpg');
+	padding:	20px 0px;
+	color:	#333;
+	text-align: left;
+}
+.about-bg p {
+	line-height: 2;
+}
+.white {
+	color:	#fff;
+}
+.orange {
+	color:	#f60;
+}
+ul.white-list li {
+    list-style-position: inside;
+    background: url('https://app.salesdrip.com/users/myteam42369/Media682.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
+    list-style-type: none;
+    padding-bottom: 0px;
+    background-size: 40px;
+        font-size: 20px;
+    padding: 10px 0px 10px 40px;
+}
+.white-list {
+	    margin-left: -40px;
+}
+a.button2 {
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #f60;
+    font-weight: 500;
+    margin-top: 30px;
+    display: inline-block;
+}
+a.button2:hover {
+	background-color: #f60;
+	color:	#fff;
+}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.5%;
+}
+
+
+}
+
+@media only screen and (max-width: 1300px){
+html {
+  font-size: 12px;
+}
+
+.mainimg img{
+  margin-top: .5rem;
+  width: 200px;
+}
+
+}
+
+@media only screen and (max-width: 1200px){
+html {
+  font-size: 12px;
+}
+
+.mainimg img{
+display: none;
+}
+
+.headship {
+  display: none;
+}
+
+.upperhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontent {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.bannertitle {
+  margin-left: 5rem;
+}
+
+.centerfoot {
+  margin: 2rem 0;
+}
+
+.foottext {
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+}
+
+.footlower {
+  width: 1100px;
+}
+
+.contactbar {
+  width: 1100px;
+}
+
+.lowerfoot {
+  width: 1100px;
+}
+
+}
+
+@media only screen and (max-width: 1100px){
+.footmediaicons {
+  display: none;
+}
+
+.footlower {
+  display: flex;
+  justify-content: center;
+}
+
+
+.footlogo {
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+@media only screen and (max-width: 1050px){
+.upperhead {
+  width: 100%;
+}
+
+.tiasente {
+  width: 100%;
+  margin-left: 1rem;
+  width: 90%;
+}
+
+.tiatitle {
+  width: 100%;
+  margin-left: 1rem;
+  width: 90%;
+}
+
+#nav ul li a{
+  display: none;
+}
+
+.main-nav ul {
+  width: 90%;
+}
+
+.main-nav {
+  width: 90%;
+}
+
+.lowerhead {
+width: 100%;
+}
+.foottext {
+  width: 100%;
+}
+
+.footlower {
+  width: 100%;
+}
+
+.mainimghome {
+  width: 100%;
+}
+
+
+.servicetypes {
+  width: 100% !important;
+}
+.maincontenthome {
+  width: 100%;
+}
+
+.mainbody {
+  width: 100%;
+}
+
+.headsection {
+  width: 100% !important;
+}
+
+.mainvid {
+  height: 500px;;
+}
+
+.contactbar {
+  width: 100%;
+}
+.TIA {
+  width: 100%;
+  flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width: 421px){
+.leftfoot {
+  display: none;
+}
+
+.headsection {
+  position: relative;
+}
+
+.maintext img {
+  width: 280px;
+}
+
+.main {
+  margin-top: 0;
+}
+
+.mainvid {
+  height: 230px;
+  background-image: url("https://app.salesdrip.com/users/myteam45785/Media32.jpg");
+}
+
+.mainvid video {
+  display: none;
+}
+
+.vidtitle {
+  font-size: 12px;
+}
+
+.vidpara {
+  font-size: 12px;
+}
+
+.centerfoot {
+  display: none;
+}
+
+.form-control {
+  width: 80%;
+  height: 2.5rem;
+}
+
+.topfoot {
+  height: auto;
+}
+
+.TIA {
+  height: auto;
+}
+
+.headlogo a {
+  display: flex;
+  justify-content: center;
+}
+
+.headlogo img {
+  width: 80%;
+}
+
+.footlogo {
+  width: 80%;
+  height: 120px;
+  margin: 0;
+}
+
+.rightfoot {
+  margin-top: 1rem;
+}
+
+.footlogo a {
+  display: flex;
+  justify-content: center;
+}
+
+.maintitlehome {
+  text-align: center;
+}
+
+.upperhead {
+height: auto;
+}
+
+.upperhead img {
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.control_panel {
+  height: auto;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.line {
+  display: none;
+}
+
+.linelong {
+  display: none;
+}
+
+#controlPanel {
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  height: auto;
+}
+
+#nav li {
+  min-width: 0;
+}
+
+#nav a {
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: .30rem;
+padding-bottom: .2rem;
+}
+
+#controlPanel li {
+  margin: .3rem .5rem;
+}
+
+#nav li:hover ul{ /* Display the dropdown on hover */
+	display: none; /* Bring back on-screen when needed */
+	}
+
+  .footlower {
+    display: none;
+  }
+
+}
+
+</style>
+<script type="text/javascript" src="/scripts/app_scripts.js"></script>
+<script type="text/javascript" src="/scripts/fansite_scripts.js"></script>
+<script type="text/javascript" src="/scripts/FusionCharts.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald:700,400,300|Rubik:300,400,500" rel="stylesheet">
+</head>
+<body>
+			<!-- header area -->
+      <div class="headsection">
+
+      <div class="header">
+        <div class="upperhead">
+          <div class="headlogo">
+            <a href="https://shipsims.salesdrip.com"><img src="https://app.salesdrip.com/users/myteam45785/Media3.png" alt=""></a>
+          </div>
+          <div class="headship">
+            <span class="blue bold w500">Ship now! </span> <p>1</p>
+            <span class="w300"><a href="tel:+1855-326-8671">855-326-8671</a></span>
+          </div>
+        </div>
+        </div>
+
+
+
+        <div class="control_panel">
+  						<div id="controlPanel">
+  							<label for="show-menu" class="show-menu">&equiv;</label>
+  							<input type="checkbox" id="show-menu" role="button">
+                <ul id="Page1Link">
+
+                </ul>
+  							<!-- CSS Control Panel -->
+
+                  <li id="log"><a href="#" id="loginnav">LOG IN</a>
+                     <div class="formlogin">
+                            <form action="http://my.shipsims.com/Account/Login" class="form-horizontal loginForm elogin-form" method="post">
+                        <div class="form-group hidelabel">
+                                <label for="UserName" class="sr-only">Username</label>
+                                <input class="form-control" data-val="true" data-val-required="The User Name field is required." id="UserName" name="UserName" placeholder="     Username" type="text" value="">
+                                <label for="Password" class="sr-only">Password</label>
+                                <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="     Password" type="password">
+                            </div>
+                        <div class="form-group text-center">
+                                <button class="btn btn-orange" type="submit">Log In</button>
+                            </div>
+                        <div class="form-group text-center"
+                                <label class="checkbox">
+                                    <input id="Rememberme" type="checkbox" value="remember-me"><span class="text-underline"><b>Remember credentials</b></span>
+                                </label>
+                                <p class="form-details">Only check if you are using <br>a private computer.</p>
+                        </div>
+                        <div class="form-group text-center">
+                                <a href="mailto:customerservice@simsglobalsolutions.com?subject=I’d%20like%20to%20open%20an%20account!&amp;body=I’d%20like%20to%20set%20up%20a%20free%20account.%20I%20have%20immediate%20shipping%20needs%20and%20would%20like%20to%20get%20a%20free%20quote.%20Thanks!" class="all-caps italic block"><b>Request a Free Account!</b></a>
+                        </div>
+                        <div class="form-group text-center">
+                                <a href="mailto:customerservice@simsglobalsolutions.com?subject=I%20forgot%20my%20password&amp;body=I%20forgot%20my%20password%20or%20username%20and%20need%20assistance%20logging%20in.%20Thank%20you." class="black-link form-small-link block">Forgot Password?</a>
+                                <a href="https://shipsims.salesdrip.com/Contact" class="black-link form-small-link block">Customer Service</a>
+                        </div>
+                        <div class="pad"></div>
+                      </form>
+                          </div></li>
+
+  						</div>
+  						<div style="clear: both;"></div>
+  					</div>
+
+			</div>
+			<!-- end header area -->
+      <div class="main">
+        <div class="mainvid">
+           <video src="https://app.salesdrip.com/users/myteam45785/Media170.mp4" autoplay muted loop></video>
+           <div class="vidcontent">
+             <div class="vidtitle">
+               LOGISTICS YOU CAN SET <br>YOUR WATCH TO.<sup>™</sup>
+             </div>
+             <div class="vidpara">
+               Your time is as valuable as your cargo. Sims Global <br>Solutions guarantees unbeatable service for any <br>
+                shipping and transportation needs.
+             </div>
+             <div class="vidbttn">
+               <a href="https://shipsims.salesdrip.com/Contact">Get a quote</a>
+             </div>
+             <div class="vidbttno">
+               <a href="https://shipsims.salesdrip.com/Contact">Track a shipment</a>
+             </div>
+           </div>
+        </div>
+
+        <div class="section1home">
+        <div class="mainbody">
+
+
+
+          <div class="maincontenthome">
+            <div class="maintitlehome">
+              <div class="line"></div>
+              THE ONLY ALL-IN-ONE FREIGHT SOLUTION YOU’LL WANT TO USE
+              <div class="line"></div>
+            </div>
+
+            <div class="maintexthome">
+               At Sims Global Solutions, late is a four-letter word. We offer comprehensive, non-asset-based transportation and logistics services for Fortune 100 and small businesses alike across North America. From the moment you contact us for a quote to the time your shipment is delivered, we’ll always respond within minutes to work with your schedule and meet your deadline. With our extensive network of the industry’s top carriers and leading-edge Transportation Management Software, you get great rates on adaptive shipping solutions with regular, real-time updates on your shipment. Our customers are always in control, up-to-date, and at ease--and that’s why they keep coming back.
+            </div>
+            <div class="servicetypes">
+              <div class="servicon">
+                <a href="#"><img src="https://app.salesdrip.com/users/myteam45785/Media42.png" alt=""><h3>Truckload</h3></a>
+                <p>From a single Truckload shipment to a multi-faceted logistics project, our dedicated logistics professional coordinate every load, every step of the way.</p>
+              </div>
+              <div class="servicon">
+                <a href="#"><img src="https://app.salesdrip.com/users/myteam45785/Media45.png" alt=""><h3>LTL</h3></a>
+                <p>For small to medium sized shipments, Less-Than-Truckload (LTL) is your best bet. With a state of the art Transportation Management System (SimsTrak), we automate the process, making shipping easy and saves time.</p>
+              </div>
+              <div class="servicon">
+                <a href="#"><img src="https://app.salesdrip.com/users/myteam45785/Media44.png" alt=""><h3>Expedited</h3></a>
+                <p>When deadlines are to be met and timing is critical, our expedited services provide the flexibility that you need to keep your customers happy.</p>
+              </div>
+              <div class="servicon">
+                <a href="#"><img src="https://app.salesdrip.com/users/myteam45785/Media41.png" alt=""><h3>Intermodal</h3></a>
+                <p>If timing isn't a necessity or you are looking for a greener alternative whether that be price or environmental based, look no further than our Intermodal services.</p>
+              </div>
+              <div class="servicon">
+                <a href="#"><img src="https://app.salesdrip.com/users/myteam45785/Media46.png" alt=""><h3>Specialized</h3></a>
+                <p>When we say specialized, we mean a special kind of shipment, with a special kind of solution.</p>
+              </div>
+              <div class="servicon">
+                <a href="#"><img src="https://app.salesdrip.com/users/myteam45785/Media43.png" alt=""><h3>International</h3></a>
+                <p>We offer global freight services wherever you do business. Whether by air, land, or sea, worldwide door-to-door shipments begin with Sims.</p>
+              </div>
+            </div>
+            <div class="maintitlehome">
+              <div class="linelong"></div>
+              QUOTE, SCHEDULE AND TRACK WHEN YOU WANT
+              <div class="linelong"></div>
+            </div>
+            <div class="maintexthome">
+            Our cutting-edge Transportation Management System (TMS) technology and responsive website allows you to quote, schedule, and track all of your shipments from just about anywhere at anytime. Start a quote at your desk, schedule it from the warehouse on your tablet and get a delivery notification on your phone. Saving time and money is easy.
+            </div>
+            <div class="mainimghome">
+              <img src="https://app.salesdrip.com/users/myteam45785/Media37.png" alt="">
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="woodgrain">
+          <div class="woodtitle">
+            <div class="linelong"></div>
+            THE BEST CARRIERS DELIVER
+            <div class="linelong"></div>
+          </div>
+          <div class="woodcontent">
+            Enjoy the benefits of pre-negotiated pricing  programs with the top national, <br> regional, and local carriers in North America.
+          </div>
+          <div class="scrolling-wrapper-flexbox">
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media258.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media249.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media253.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media256.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media259.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media257.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media261.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media250.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media263.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media254.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media251.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media252.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media262.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media260.png" alt=""> </div>
+    <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media255.png" alt=""> </div>
+
+
+  </div>
+        </div>
+
+        </div>
+        <div class="sectiontwo">
+          <div class="TIA">
+            <div class="tiaimg">
+              <img src="https://app.salesdrip.com/users/myteam45785/Media12.png" alt="">
+            </div>
+            <div class="tiatext">
+              <div class="tiatitle">
+                A BUSINESS BUILT AROUND AWARD-WINNING SERVICE.
+              </div>
+              <div class="tiasente">
+                We’re honored to be recognized by companies we admire for a job well done.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Footer Section ------------------------------------------------------>
+     <div class="footsection">
+      <div class="topfoot">
+        <div class="foottext">
+
+       <div class="leftfoot">
+         <div class="leftfootcontent">
+           <div class="footlink">
+             <a href="https://shipsims.salesdrip.com/Services">SERVICES</a>
+           </div>
+           <div class="footservice">
+             <a href="https://shipsims.salesdrip.com/LTL">LTL</a>
+             <a href="https://shipsims.salesdrip.com/Truckload">TRUCKLOAD</a>
+             <a href="https://shipsims.salesdrip.com/Expedited">EXPEDITED</a>
+             <a href="https://shipsims.salesdrip.com/Intermodal">INTERMODAL</a>
+             <a href="https://shipsims.salesdrip.com/Specialized">SPECIALIZED</a>
+             <a href="https://shipsims.salesdrip.com/International">INTERNATIONAL</a>
+           </div>
+           <div class="footlink space">
+             <a href="https://shipsims.salesdrip.com/Documents">DOCUMENTS</a>
+           </div>
+           <div class="footlink">
+             <a href="https://shipsims.salesdrip.com/About">ABOUT</a>
+           </div>
+           <div class="footlink">
+             <a href="https://shipsims.salesdrip.com/FAQs">FAQ</a>
+           </div>
+           <div class="footlink">
+             <a href="https://shipsims.salesdrip.com/Blog">BLOG</a>
+           </div>
+           <div class="footlink">
+             <a href="https://shipsims.salesdrip.com/Contact">CONTACT</a>
+           </div>
+         </div>
+         <div class="leftfootimage">
+           <img src="https://app.salesdrip.com/users/myteam45785/Media2.png" alt="">
+         </div>
+
+       </div>
+       <div class="centerfoot">
+
+       </div>
+       <div class="rightfoot">
+
+         <div class="formhead">
+           <div class="formicon">
+             <img src="https://app.salesdrip.com/users/myteam45785/Media175.png" alt="">
+           </div>
+           <div class="formtitle">
+             DROP US A LINE...
+           </div>
+         </div>
+         <div class="inputone">
+           <!-- First Input ------------------------------------------------------------------->
+           <label class="formlabel" for="email">
+             "Email"
+           </label>
+           <input name="input_1" id="email" type="email" value=""
+           class="inputsection" tabindex="1000" placeholder="   Email Address" aria-required="true"
+           aria-invalid="false">
+           <!-- Second Input ------------------------------------------------------------------->
+           <label class="formlabel" for="phone">
+             "Phone"
+           </label>
+           <input name="input_2" id="phone" type="tel" value="" class="inputsection"
+           tabindex="1001" placeholder="  Phone" aria-required="true" aria-invalid="false">
+
+           <!-- Third Input ------------------------------------------------------------------->
+
+           <label class="formlabel" for="heardabout">
+             "How did you hear about us?"
+           </label>
+
+           <select name="input_4" id="heardabout" onchange="gf_apply_rules(1,[5]);" class="inputdrop"  aria-required="true" aria-invalid="false">
+             <option value="" selected="selected" class="gf_placeholder">How did you hear about us?</option>
+             <option value="Billboard">Billboard</option>
+             <option value="Referral">Referral</option>
+             <option value="Facebook">Facebook</option>
+             <option value="Google">Google</option>
+             <option value="Instagram">Instagram</option>
+             <option value="K-State Sports">K-State Sports</option>
+             <option value="LinkedIn">LinkedIn</option>
+             <option value="Radio">Radio</option>
+             <option value="Twitter">Twitter</option>
+             <option value="Word of mouth">Word of mouth</option>
+             </select>
+
+             <!-- Third Input ------------------------------------------------------------------->
+
+             <label class="formlabel" for="loaddetail">
+               "Load Details"
+             </label>
+               <textarea name="input_2" id="loaddetail" class="textareainput" tabindex="1004"
+               placeholder="
+  Load details..." aria-invalid="false" rows="10" cols="50"></textarea>
+
+            <div class="formfooter">
+              <input type="submit" id="gform_submit_button_1" class="formbutton" value="SEND" tabindex="1005" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  "
+              onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if(           !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }">
+              <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=1&amp;description=&amp;tabindex=1">
+              <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
+              <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
+
+              <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
+              <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjY2YTQwZDg0YmUwOTYwZjc5MTlkMTJlMDk3MWRhZWRjIl0=">
+              <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
+              <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
+              <input type="hidden" name="gform_field_values" value="">
+          </div>
+
+
+          </div>
+       </div>
+       </div>
+       <div class="footlower">
+         <div class="footlogo">
+           <a href="https://shipsims.salesdrip.com"><img src="https://app.salesdrip.com/users/myteam45785/Media3.png" alt=""></a>
+         </div>
+         <div class="footmediaicons">
+           <a href="https://www.linkedin.com/company/sims-global-solutions/about/" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media177.jpg" alt=""></a>
+           <a href="https://www.facebook.com/shipsims/" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media178.jpg" alt=""></a>
+           <a href="https://twitter.com/Sims_Global" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media179.jpg" alt=""></a>
+           <a href="https://www.instagram.com/simsglobalsolutions/" target="_blank"><img src="https://app.salesdrip.com/users/myteam45785/Media176.jpg" alt=""></a>
+         </div>
+       </div>
+       <div class="contactbar">
+         <p> Sims Global Solutions. 6101 Long Prairie Rd., Ste. 744-252, Flower Mound, TX 75028
+          <span class="doublepad">Email: <a href="mailto:customerservice@simsglobalsolutions.com" class="blue">customerservice@simsglobalsolutions.com</a></span>
+<span class="pad">Phone: <a class="blue" href="tel:+1855-326-8671">855-326-8671</a></span> <span class="pad">Fax: <span>214-594-9164</span></span></p>
+       </div>
+      </div>
+      <div class="bottomfoot">
+        © 2019 Sims Global Solutions. All rights reserved.
+      </div>
+
+    </div>
+
+</body>
+</html>
