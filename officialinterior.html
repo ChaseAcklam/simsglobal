@@ -6,7 +6,8 @@
 <meta name="description" content="Official website for <!-- Teamname -->" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><!-- Teamname --></title>
-<style>
+<style type="text/css">
+  <style>
 /* Fansite 180 - Bold Pro Responsive */
 html {
   font-size: 16px;
@@ -421,7 +422,6 @@ ul .dropdown {
 
 .servicon {
   text-align: center;
-  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -429,16 +429,22 @@ ul .dropdown {
   font-weight: bold;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-top: 2rem;
-  margin-left:2rem;
-  margin-right: 2rem;
+  margin-left:5rem;
+  margin-right: 5rem;
 }
 
-.servicon:hover {
-  box-shadow: 0px 1.5px 9px gray;
+.servicon a {
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
+.servicon a:hover{
+  box-shadow: 0px 1.5px 9px gray;
   border: 1px solid gray;
 }
 
@@ -1857,11 +1863,6 @@ display: none;
   justify-content: center;
 }
 
-.servlists {
-  width: 100%;
-  flex-direction: column;
-}
-
 }
 
 @media only screen and (max-width: 1050px){
@@ -1943,20 +1944,40 @@ width: 100%;
   display: none;
 }
 
-.bannertitle {
-  font-size: 2rem;
+.headsection {
+  position: relative;
 }
 
-.maintitle {
-text-align: center;
+.maintexthome {
+  width: 80%;
+  font-size: 14.25px;
+font-weight: 300;
+max-width: 42rem;
+line-height: 1.3;
 }
 
-#tiaabout img {
+.maintitlehome{
+  width: 90%;
+    border-bottom: 2px solid #f3841f;
+      padding-bottom: .8rem;
+}
+
+.maintext img {
+
   width: 280px;
 }
 
-.headsection {
-  position: relative;
+.servicon p {
+  display: none;
+}
+
+.servicon {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.servicon img {
+  width: 70px;
 }
 
 .main {
@@ -1964,7 +1985,7 @@ text-align: center;
 }
 
 .mainvid {
-  height: 230px;
+  height: 410px;
   background-image: url("https://app.salesdrip.com/users/myteam45785/Media32.jpg");
 }
 
@@ -1973,11 +1994,44 @@ text-align: center;
 }
 
 .vidtitle {
-  font-size: 12px;
+  width: 90%;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 700;
+  border-bottom: 2px solid #f3841f;
 }
 
 .vidpara {
-  font-size: 12px;
+  font-size: 19px;
+  font-weight: 300;
+max-width: 42rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mainimghome img {
+  width: 90%;
+}
+
+.woodtitle {
+  border-bottom: 2px solid #f3841f;
+  margin-top: 1rem;
+}
+
+.woodcontent {
+  width: 90%;
+  font-size: 14.25px;
+font-weight: 300;
+}
+
+.tiatitle {
+  margin-top: 1.5rem;
+}
+
+.TIA, .tiatext, .tiatitle, .tiaimg{
+  justify-content: center;
+  text-align: center;
 }
 
 .centerfoot {
@@ -2003,7 +2057,7 @@ text-align: center;
 }
 
 .headlogo img {
-  width: 80%;
+  width: 60%;
 }
 
 .footlogo {
@@ -2026,13 +2080,14 @@ text-align: center;
 }
 
 .upperhead {
-height: auto;
+height: 82px;
 }
 
 .upperhead img {
-  height: 120px;
+  height: 82px;
   margin-bottom: 1rem;
 }
+
 
 .control_panel {
   height: auto;
@@ -2084,16 +2139,6 @@ padding-bottom: .2rem;
   .footlower {
     display: none;
   }
-
-  .maincontent {
-    align-items: flex-start;
-    margin-left: 1rem;
-  }
-
-.pdficon img {
-  width: 15px;
-}
-
 
 }
 

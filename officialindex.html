@@ -421,7 +421,6 @@ ul .dropdown {
 
 .servicon {
   text-align: center;
-  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -429,16 +428,22 @@ ul .dropdown {
   font-weight: bold;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-top: 2rem;
-  margin-left:2rem;
-  margin-right: 2rem;
+  margin-left:5rem;
+  margin-right: 5rem;
 }
 
-.servicon:hover {
-  box-shadow: 0px 1.5px 9px gray;
+.servicon a {
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
+.servicon a:hover{
+  box-shadow: 0px 1.5px 9px gray;
   border: 1px solid gray;
 }
 
@@ -1942,8 +1947,36 @@ width: 100%;
   position: relative;
 }
 
+.maintexthome {
+  width: 80%;
+  font-size: 14.25px;
+font-weight: 300;
+max-width: 42rem;
+line-height: 1.3;
+}
+
+.maintitlehome{
+  width: 90%;
+    border-bottom: 2px solid #f3841f;
+      padding-bottom: .8rem;
+}
+
 .maintext img {
+
   width: 280px;
+}
+
+.servicon p {
+  display: none;
+}
+
+.servicon {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.servicon img {
+  width: 70px;
 }
 
 .main {
@@ -1951,7 +1984,7 @@ width: 100%;
 }
 
 .mainvid {
-  height: 230px;
+  height: 410px;
   background-image: url("https://app.salesdrip.com/users/myteam45785/Media32.jpg");
 }
 
@@ -1960,11 +1993,44 @@ width: 100%;
 }
 
 .vidtitle {
-  font-size: 12px;
+  width: 90%;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 700;
+  border-bottom: 2px solid #f3841f;
 }
 
 .vidpara {
-  font-size: 12px;
+  font-size: 19px;
+  font-weight: 300;
+max-width: 42rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mainimghome img {
+  width: 90%;
+}
+
+.woodtitle {
+  border-bottom: 2px solid #f3841f;
+  margin-top: 1rem;
+}
+
+.woodcontent {
+  width: 90%;
+  font-size: 14.25px;
+font-weight: 300;
+}
+
+.tiatitle {
+  margin-top: 1.5rem;
+}
+
+.TIA, .tiatext, .tiatitle, .tiaimg{
+  justify-content: center;
+  text-align: center;
 }
 
 .centerfoot {
@@ -1990,7 +2056,7 @@ width: 100%;
 }
 
 .headlogo img {
-  width: 80%;
+  width: 60%;
 }
 
 .footlogo {
@@ -2013,13 +2079,14 @@ width: 100%;
 }
 
 .upperhead {
-height: auto;
+height: 82px;
 }
 
 .upperhead img {
-  height: 120px;
+  height: 82px;
   margin-bottom: 1rem;
 }
+
 
 .control_panel {
   height: auto;
@@ -2147,10 +2214,10 @@ padding-bottom: .2rem;
            <video src="https://app.salesdrip.com/users/myteam45785/Media170.mp4" autoplay muted loop></video>
            <div class="vidcontent">
              <div class="vidtitle">
-               LOGISTICS YOU CAN SET <br>YOUR WATCH TO.<sup>™</sup>
+               LOGISTICS YOU CAN SET YOUR WATCH TO.<sup>™</sup>
              </div>
              <div class="vidpara">
-               Your time is as valuable as your cargo. Sims Global <br>Solutions guarantees unbeatable service for any <br>
+               Your time is as valuable as your cargo. Sims Global Solutions guarantees unbeatable service for any
                 shipping and transportation needs.
              </div>
              <div class="vidbttn">
@@ -2226,7 +2293,7 @@ padding-bottom: .2rem;
             <div class="linelong"></div>
           </div>
           <div class="woodcontent">
-            Enjoy the benefits of pre-negotiated pricing  programs with the top national, <br> regional, and local carriers in North America.
+            Enjoy the benefits of pre-negotiated pricing  programs with the top national, regional, and local carriers in North America.
           </div>
           <div class="scrolling-wrapper-flexbox">
     <div class="card"><img src="https://app.salesdrip.com/users/myteam45785/Media258.png" alt=""> </div>
@@ -2252,15 +2319,16 @@ padding-bottom: .2rem;
         </div>
         <div class="sectiontwo">
           <div class="TIA">
-            <div class="tiaimg">
-              <img src="https://app.salesdrip.com/users/myteam45785/Media12.png" alt="">
-            </div>
+
             <div class="tiatext">
               <div class="tiatitle">
                 A BUSINESS BUILT AROUND AWARD-WINNING SERVICE.
               </div>
               <div class="tiasente">
                 We’re honored to be recognized by companies we admire for a job well done.
+              </div>
+              <div class="tiaimg">
+                <img src="https://app.salesdrip.com/users/myteam45785/Media12.png" alt="">
               </div>
             </div>
           </div>
