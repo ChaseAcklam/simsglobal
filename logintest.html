@@ -6,48 +6,31 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="test">
-      <form action="/Account/Login" class="form-horizontal ng-pristine ng-valid" method="post">                                                    <div class="col-md-12">
-                                                          <div class="row">
-                                                              <div class="col-md-12">
-                                                                  <h3 class="text-center">Log In</h3>
-                                                              </div>
-                                                          </div>
-                                                          <div class="divider"></div>
-                                                          <div class="form-group">
-                                                              <div class="col-md-12 text-center" style="padding-top:15px; padding-bottom:15px;">
-                                                                  <label for="UserName" class="sr-only">Email address</label>
-                                                                  <input id="UserName" name="UserName" placeholder="Username" type="text" class="form-control">
-                                                              </div>
-                                                          </div>
-                                                          <div class="row">
-                                                              <div class="col-md-12 text-center" style="padding-bottom:15px;">
-                                                                  <label for="Password" class="sr-only">Password</label>
-                                                                  <input id="Password" name="Password" placeholder="Password" type="password" class="form-control">
-                                                              </div>
-                                                          </div>
-                                                          <div class="row">
-                                                              <div class="col-md-12" style="padding-bottom:15px; ">
-                                                                  <div class="checkbox">
-                                                                      <label>
-                                                                          <input type="checkbox" value="remember-me"> Remember me
-                                                                      </label>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                          <div class="row">
-                                                              <div class="col-md-12 validation-summary-errors-unlisted text-center" style="padding-bottom:15px;">
+    <div class="formlogin">
+                            <form action="https://my.shipsims.com/Account/Login" class="form-horizontal loginForm elogin-form" method="post">
+                        <div class="form-group hidelabel">
+                                <label for="UserName" class="sr-only">Username</label>
+                                <input class="form-control" data-val="true" data-val-required="The User Name field is required." id="UserName" name="UserName" placeholder="     Username" type="text" value="">
+                                <label for="Password" class="sr-only">Password</label>
+                                <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="     Password" type="password">
+                            </div>
+                        <div class="form-group text-center">
+                                <button class="btn btn-orange" type="submit">Log In</button>
+                            </div>
+                        <div class="form-group text-center" <label="">
+                                    <input id="Rememberme" type="checkbox" value="remember-me"><span class="text-underline"><b>Remember credentials</b></span>
 
-                                                              </div>
-                                                          </div>
-                                                          <div class="row">
-                                                              <div class="col-md-12" style="padding-bottom:15px;">
-                                                                  <button class="btn btn-primary btn-block" type="submit">Log In</button>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-      </form>
-    </div>
-
+                                <p class="form-details">Only check if you are using <br>a private computer.</p>
+                        </div>
+                        <div class="form-group text-center">
+                                <a href="mailto:customerservice@simsglobalsolutions.com?subject=I’d%20like%20to%20open%20an%20account!&amp;body=I’d%20like%20to%20set%20up%20a%20free%20account.%20I%20have%20immediate%20shipping%20needs%20and%20would%20like%20to%20get%20a%20free%20quote.%20Thanks!" class="all-caps italic block"><b>Request a Free Account!</b></a>
+                        </div>
+                        <div class="form-group text-center">
+                                <a href="mailto:customerservice@simsglobalsolutions.com?subject=I%20forgot%20my%20password&amp;body=I%20forgot%20my%20password%20or%20username%20and%20need%20assistance%20logging%20in.%20Thank%20you." class="black-link form-small-link block">Forgot Password?</a>
+                                <a href="https://shipsims.salesdrip.com/Contact" class="black-link form-small-link block">Customer Service</a>
+                        </div>
+                        <div class="pad"></div>
+                      </form>
+                          </div>
   </body>
 </html>
